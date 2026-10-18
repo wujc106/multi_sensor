@@ -1,0 +1,22 @@
+{
+  "preset:NotoSansCJKsc-Regular.otf::14::b49ae336": {
+    "hash": "7cec1c376346676928e291d2ab2d38de019d226b",
+    "cFileName": "font_notosanscjksc_regular_14_b49ae336.c"
+  },
+  "preset:NotoSansCJKsc-Regular.otf::28::b49ae336": {
+    "hash": "86a75042b50f7e2e650b0ef7f47542fc438f6f2d",
+    "cFileName": "font_notosanscjksc_regular_28_b49ae336.c"
+  },
+  "preset:NotoSansCJKsc-Regular.otf::26::b49ae336": {
+    "hash": "04519cb1785ae8ad13d4099213a078a15654893c",
+    "cFileName": "font_notosanscjksc_regular_26_b49ae336.c"
+  },
+  "preset:NotoSansCJKsc-Regular.otf::12::b49ae336": {
+    "hash": "395232b64ae24084acfb227ba21619e4ed02428a",
+    "cFileName": "font_notosanscjksc_regular_12_b49ae336.c"
+  },
+  "preset:NotoSansCJKsc-Regular.otf::18::b49ae336": {
+    "hash": "c9a6a494c5708c6a5fad5cb0a18f75c0f11484e7",
+    "cFileName": "font_notosanscjksc_regular_18_b49ae336.c"
+  }
+}

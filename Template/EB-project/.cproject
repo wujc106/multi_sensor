@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.gigadevice.mbs.arm.configuration.debug.196398975">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.gigadevice.mbs.arm.configuration.debug.196398975" moduleId="org.eclipse.cdt.core.settings" name="GD ARM MCU Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${command_rm} -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="com.gigadevice.mbs.arm.configuration.debug.196398975" name="GD ARM MCU Debug" parent="com.gigadevice.mbs.arm.configuration.debug">
+					<folderInfo id="com.gigadevice.mbs.arm.configuration.debug.196398975." name="/" resourcePath="">
+						<toolChain id="com.gigadevice.mbs.arm.toolChain.elf.debug.2000871703" name="GD ARM MCU Toolchain" secondaryOutputs="com.gigadevice.mbs.arm.outputType.objcopy.hex;com.gigadevice.mbs.arm.outputType.objcopy.bin;com.gigadevice.mbs.arm.outputType.objdump.list;com.gigadevice.mbs.arm.outputType.size" superClass="com.gigadevice.mbs.arm.toolChain.elf.debug">
+							<option id="com.gigadevice.mbs.arm.option.optimization.messageLength.1357155130" name="Message length (-fmessage-length=0)" superClass="com.gigadevice.mbs.arm.option.optimization.messageLength"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.allOptions.1853209013" name="All options" superClass="com.gigadevice.mbs.arm.option.optimization.allOptions" value="-Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.signedChar.1325877853" name="Plain char is signed (-fsigned-char)" superClass="com.gigadevice.mbs.arm.option.optimization.signedChar"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.functionSections.320416697" name="Function sections (-ffunction-sections)" superClass="com.gigadevice.mbs.arm.option.optimization.functionSections"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.dataSections.486810994" name="Data sections (-fdata-sections)" superClass="com.gigadevice.mbs.arm.option.optimization.dataSections"/>
+							<option id="com.gigadevice.mbs.arm.option.debugging.level.153731725" name="Debug level" superClass="com.gigadevice.mbs.arm.option.debugging.level" value="com.gigadevice.mbs.option.toolSettings.debugging.level.max" valueType="enumerated"/>
+							<option id="com.gigadevice.mbs.arm.option.debugging.allOptions.1477396295" name="All options" superClass="com.gigadevice.mbs.arm.option.debugging.allOptions" value=" -g3" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.targetProcessor.ARMFamily.101561025" name="ARM Family" superClass="com.gigadevice.mbs.arm.option.targetProcessor.ARMFamily" value="com.gigadevice.mbs.arm.option.targetProcessor.ARMFamily.cortex-m33" valueType="enumerated"/>
+							<option id="com.gigadevice.mbs.arm.option.targetMcu.partNo.1809630120" superClass="com.gigadevice.mbs.arm.option.targetMcu.partNo" value="GD32F5HCRIH6" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.name.1015358278" name="%option.base.toolChain.name" superClass="com.gigadevice.mbs.arm.option.toolChain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.prefix.833319945" name="%option.base.toolChain.prefix" superClass="com.gigadevice.mbs.arm.option.toolChain.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.objcopy.1100357715" name="%option.base.toolChain.objcopy" superClass="com.gigadevice.mbs.arm.option.toolChain.objcopy" value="arm-none-eabi-objcopy" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.objdump.1002418519" name="%option.base.toolChain.listing" superClass="com.gigadevice.mbs.arm.option.toolChain.objdump" value="arm-none-eabi-objdump" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.size.1165712654" name="%option.base.toolChain.size" superClass="com.gigadevice.mbs.arm.option.toolChain.size" value="arm-none-eabi-size" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.path.1536978331" name="%option.base.toolChain.path" superClass="com.gigadevice.mbs.arm.option.toolChain.path" value="Tools/ARMEmbeddedGCC/bin" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.buildToolPath.1153802813" name="%option.base.toolChain.buildToolPath" superClass="com.gigadevice.mbs.arm.option.toolChain.buildToolPath" value="D:/Software/GD32EB_v1.9.0.39454_Alpha/plugins/com.gd.tools.make4.2.1_1.0.0.202604291641/Tools/BuildTools4.2.1/bin" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.targetProcessor.allOptions.346800743" name="All options" superClass="com.gigadevice.mbs.arm.option.targetProcessor.allOptions" value="-mcpu=cortex-m33 -mthumb" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.level.1615426202" name="Optimization Level" superClass="com.gigadevice.mbs.arm.option.optimization.level" value="com.gigadevice.mbs.option.toolSettings.optimization.level.size" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.gigadevice.mbs.arm.targetPlatform.1696592229" isAbstract="false" osList="all" superClass="com.gigadevice.mbs.arm.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/GD32F5HC}/GD ARM MCU Debug" id="com.gigadevice.mbs.arm.builder.659579736" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.gigadevice.mbs.arm.builder"/>
+							<tool id="com.gigadevice.mbs.arm.tool.CCompiler.124592187" name="GD ARM MCU C Compiler" superClass="com.gigadevice.mbs.arm.tool.CCompiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.CCompiler.symbols.defs.800932713" name="Define (-D)" superClass="com.gigadevice.mbs.arm.option.CCompiler.symbols.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="GD32F5HC"/>
+									<listOptionValue builtIn="false" value="SYS_NS"/>
+									<listOptionValue builtIn="false" value="FW_DEBUG_ERR_REPORT"/>
+									<listOptionValue builtIn="false" value="GD_ECLIPSE_GCC"/>
+									<listOptionValue builtIn="false" value="LV_CONF_INCLUDE_SIMPLE"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.CCompiler.includes.paths.1725999724" name="Include paths (-I)" superClass="com.gigadevice.mbs.arm.option.CCompiler.includes.paths" useByScannerDiscovery="true" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/GD32W51x_F5HC_standard_peripheral/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Template&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../GUI_APP/GD32EmbeddedUI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../GUI_APP/GD32EmbeddedUI/custom&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../GUI_APP/GD32EmbeddedUI/generated&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/demos&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/examples&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/src/tick&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/examples/porting&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/port&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Source/GCC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Source/GCC/Ld&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/BSP_Drive&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Include&quot;"/>
+								</option>
+								<inputType id="com.gigadevice.mbs.arm.inputType.CCompiler.2051602071" superClass="com.gigadevice.mbs.arm.inputType.CCompiler"/>
+							</tool>
+							<tool id="com.gigadevice.mbs.arm.tool.CppCompiler.171083635" name="GD ARM MCU C++ Compiler" superClass="com.gigadevice.mbs.arm.tool.CppCompiler"/>
+							<tool id="com.gigadevice.mbs.arm.tool.linker.921575743" name="GD ARM MCU C Linker" superClass="com.gigadevice.mbs.arm.tool.linker">
+								<option id="com.gigadevice.mbs.arm.option.linker.general.gcsections.903692944" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.gigadevice.mbs.arm.option.linker.general.gcsections"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.linker.general.scriptFile.1763270668" name="Linker script (-T)" superClass="com.gigadevice.mbs.arm.option.linker.general.scriptFile" valueType="stringList">
+									<listOptionValue builtIn="false" value="${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Source/GCC/Ld/gd32f5hcri_flash.ld"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.linker.libraries.paths.1036953265" name="Library search path (-L)" superClass="com.gigadevice.mbs.arm.option.linker.libraries.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;../ldscripts/&quot;"/>
+								</option>
+								<inputType id="com.gigadevice.mbs.arm.inputType.linker.1169628361" superClass="com.gigadevice.mbs.arm.inputType.linker">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.gigadevice.mbs.arm.tool.cpp.linker.1662122852" name="GD ARM MCU C++ Linker" superClass="com.gigadevice.mbs.arm.tool.cpp.linker">
+								<option id="com.gigadevice.mbs.arm.option.cpp.linker.general.gcsections.146829598" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.gigadevice.mbs.arm.option.cpp.linker.general.gcsections"/>
+							</tool>
+							<tool id="com.gigadevice.mbs.tool.archiver.1134917201" name="GD ARM MCU Archiver" superClass="com.gigadevice.mbs.tool.archiver"/>
+							<tool id="com.gigadevice.mbs.arm.tool.assembler.2029325373" name="GD ARM MCU Assembler" superClass="com.gigadevice.mbs.arm.tool.assembler">
+								<option id="com.gigadevice.mbs.arm.option.assembler.preprocessor.usepreprocessor.829114414" name="Use preprocessor" superClass="com.gigadevice.mbs.arm.option.assembler.preprocessor.usepreprocessor"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.assembler.symbols.defs.1257332726" name="Define (-D)" superClass="com.gigadevice.mbs.arm.option.assembler.symbols.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="SYS_NS"/>
+									<listOptionValue builtIn="false" value="GD32F5HC"/>
+									<listOptionValue builtIn="false" value="FW_DEBUG_ERR_REPORT"/>
+									<listOptionValue builtIn="false" value="GD_ECLIPSE_GCC"/>
+									<listOptionValue builtIn="false" value="LV_CONF_INCLUDE_SIMPLE"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.assembler.includes.paths.114690028" name="Include paths (-I)" superClass="com.gigadevice.mbs.arm.option.assembler.includes.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/port&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.gigadevice.mbs.arm.option.assembler.includes.files.1484861887" name="Include files (-include)" superClass="com.gigadevice.mbs.arm.option.assembler.includes.files" valueType="includeFiles"/>
+								<inputType id="com.gigadevice.mbs.arm.inputType.assembler.651133866" superClass="com.gigadevice.mbs.arm.inputType.assembler"/>
+							</tool>
+							<tool id="com.gigadevice.mbs.arm.tool.objcopy.hex.1143123466" name="GD ARM MCU Flash Image(Hex)" superClass="com.gigadevice.mbs.arm.tool.objcopy.hex"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objcopy.bin.600877631" name="GD ARM MCU Flash Image(Bin)" superClass="com.gigadevice.mbs.arm.tool.objcopy.bin"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objcopy.mot.174241651" name="GD ARM MCU Flash Image(Mot)" superClass="com.gigadevice.mbs.arm.tool.objcopy.mot"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objdump.list.1755051501" name="GD ARM MCU Listing" superClass="com.gigadevice.mbs.arm.tool.objdump.list"/>
+							<tool id="com.gigadevice.mbs.arm.tool.size.1473199832" name="GD ARM MCU Print Size" superClass="com.gigadevice.mbs.arm.tool.size"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objdump.dump.53707917" name="GD ARM MCU Dump" superClass="com.gigadevice.mbs.arm.tool.objdump.dump"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Utilities/Third_Party/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.gigadevice.mbs.arm.configuration.release.1874921423">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.gigadevice.mbs.arm.configuration.release.1874921423" moduleId="org.eclipse.cdt.core.settings" name="GD ARM MCU Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="${command_rm} -rf" description="" id="com.gigadevice.mbs.arm.configuration.release.1874921423" name="GD ARM MCU Release" parent="com.gigadevice.mbs.arm.configuration.release">
+					<folderInfo id="com.gigadevice.mbs.arm.configuration.release.1874921423." name="/" resourcePath="">
+						<toolChain id="com.gigadevice.mbs.arm.toolChain.elf.release.1682646504" name="GD ARM MCU Toolchain" secondaryOutputs="com.gigadevice.mbs.arm.outputType.objcopy.hex;com.gigadevice.mbs.arm.outputType.objcopy.bin;com.gigadevice.mbs.arm.outputType.objdump.list;com.gigadevice.mbs.arm.outputType.size" superClass="com.gigadevice.mbs.arm.toolChain.elf.release">
+							<option id="com.gigadevice.mbs.arm.option.optimization.messageLength.1000387773" name="Message length (-fmessage-length=0)" superClass="com.gigadevice.mbs.arm.option.optimization.messageLength"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.allOptions.1028637516" name="All options" superClass="com.gigadevice.mbs.arm.option.optimization.allOptions" value="-Ofast -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.signedChar.987411001" name="Plain char is signed (-fsigned-char)" superClass="com.gigadevice.mbs.arm.option.optimization.signedChar"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.functionSections.156224004" name="Function sections (-ffunction-sections)" superClass="com.gigadevice.mbs.arm.option.optimization.functionSections"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.dataSections.132562408" name="Data sections (-fdata-sections)" superClass="com.gigadevice.mbs.arm.option.optimization.dataSections"/>
+							<option id="com.gigadevice.mbs.arm.option.debugging.level.609356307" name="Debug level" superClass="com.gigadevice.mbs.arm.option.debugging.level"/>
+							<option id="com.gigadevice.mbs.arm.option.debugging.allOptions.2134772491" name="All options" superClass="com.gigadevice.mbs.arm.option.debugging.allOptions" value=" -g" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.targetProcessor.ARMFamily.1946996081" name="ARM Family" superClass="com.gigadevice.mbs.arm.option.targetProcessor.ARMFamily" value="cortex-m33" valueType="enumerated"/>
+							<option id="com.gigadevice.mbs.arm.option.targetMcu.partNo.970735154" superClass="com.gigadevice.mbs.arm.option.targetMcu.partNo" value="GD32F5HCRIH6" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.name.860198313" name="%option.base.toolChain.name" superClass="com.gigadevice.mbs.arm.option.toolChain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.prefix.545314173" name="%option.base.toolChain.prefix" superClass="com.gigadevice.mbs.arm.option.toolChain.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.objcopy.526617038" name="%option.base.toolChain.objcopy" superClass="com.gigadevice.mbs.arm.option.toolChain.objcopy" value="arm-none-eabi-objcopy" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.objdump.2104790814" name="%option.base.toolChain.listing" superClass="com.gigadevice.mbs.arm.option.toolChain.objdump" value="arm-none-eabi-objdump" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.size.1816315759" name="%option.base.toolChain.size" superClass="com.gigadevice.mbs.arm.option.toolChain.size" value="arm-none-eabi-size" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.path.849498259" name="%option.base.toolChain.path" superClass="com.gigadevice.mbs.arm.option.toolChain.path" value="Tools/ARMEmbeddedGCC/bin" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.toolChain.buildToolPath.1169821822" name="%option.base.toolChain.buildToolPath" superClass="com.gigadevice.mbs.arm.option.toolChain.buildToolPath" value="D:/Software/GD32EB_v1.9.0.39454_Alpha/plugins/com.gd.tools.make4.2.1_1.0.0.202604291641/Tools/BuildTools4.2.1/bin" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.targetProcessor.allOptions.1055643433" name="All options" superClass="com.gigadevice.mbs.arm.option.targetProcessor.allOptions" value="-mcpu=cortex-m33 -mthumb" valueType="string"/>
+							<option id="com.gigadevice.mbs.arm.option.optimization.level.1200649155" name="Optimization Level" superClass="com.gigadevice.mbs.arm.option.optimization.level" value="com.gigadevice.mbs.option.toolSettings.optimization.level.fast" valueType="enumerated"/>
+							<option id="com.gigadevice.mbs.arm.option.warnings.allOptions.1917490981" name="All options" superClass="com.gigadevice.mbs.arm.option.warnings.allOptions" value="" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.gigadevice.mbs.arm.targetPlatform.1351781576" isAbstract="false" osList="all" superClass="com.gigadevice.mbs.arm.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/GD32F5HC}/GD ARM MCU Release" id="com.gigadevice.mbs.arm.builder.95042250" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.gigadevice.mbs.arm.builder"/>
+							<tool id="com.gigadevice.mbs.arm.tool.CCompiler.597656693" name="GD ARM MCU C Compiler" superClass="com.gigadevice.mbs.arm.tool.CCompiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.CCompiler.symbols.defs.213844082" name="Define (-D)" superClass="com.gigadevice.mbs.arm.option.CCompiler.symbols.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="SYS_NS"/>
+									<listOptionValue builtIn="false" value="GD32F5HC"/>
+									<listOptionValue builtIn="false" value="FW_DEBUG_ERR_REPORT"/>
+									<listOptionValue builtIn="false" value="GD_ECLIPSE_GCC"/>
+									<listOptionValue builtIn="false" value="LV_CONF_INCLUDE_SIMPLE"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.CCompiler.includes.paths.112498219" name="Include paths (-I)" superClass="com.gigadevice.mbs.arm.option.CCompiler.includes.paths" useByScannerDiscovery="true" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/GD32W51x_F5HC_standard_peripheral/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../GUI_APP/GD32EmbeddedUI&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../GUI_APP/GD32EmbeddedUI/custom&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../GUI_APP/GD32EmbeddedUI/generated&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Template&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/demos&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/examples&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/src/tick&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/lvgl_src/examples/porting&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/Third_Party/lvgl/port&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Source/GCC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Source/GCC/Ld&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Utilities/BSP_Drive&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Include&quot;"/>
+								</option>
+								<inputType id="com.gigadevice.mbs.arm.inputType.CCompiler.410981166" superClass="com.gigadevice.mbs.arm.inputType.CCompiler"/>
+							</tool>
+							<tool id="com.gigadevice.mbs.arm.tool.CppCompiler.2055770010" name="GD ARM MCU C++ Compiler" superClass="com.gigadevice.mbs.arm.tool.CppCompiler"/>
+							<tool id="com.gigadevice.mbs.arm.tool.linker.1514506977" name="GD ARM MCU C Linker" superClass="com.gigadevice.mbs.arm.tool.linker">
+								<option id="com.gigadevice.mbs.arm.option.linker.general.gcsections.62114887" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.gigadevice.mbs.arm.option.linker.general.gcsections"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.linker.general.scriptFile.2107598838" name="Linker script (-T)" superClass="com.gigadevice.mbs.arm.option.linker.general.scriptFile" valueType="stringList">
+									<listOptionValue builtIn="false" value="${ProjDirPath}/../../Firmware/CMSIS/GD/GD32W51x_F5HC/Source/GCC/Ld/gd32f5hcri_flash.ld"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.linker.libraries.paths.165689985" name="Library search path (-L)" superClass="com.gigadevice.mbs.arm.option.linker.libraries.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;../ldscripts/&quot;"/>
+								</option>
+								<inputType id="com.gigadevice.mbs.arm.inputType.linker.261802309" superClass="com.gigadevice.mbs.arm.inputType.linker">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.gigadevice.mbs.arm.tool.cpp.linker.1196962252" name="GD ARM MCU C++ Linker" superClass="com.gigadevice.mbs.arm.tool.cpp.linker">
+								<option id="com.gigadevice.mbs.arm.option.cpp.linker.general.gcsections.2029360466" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.gigadevice.mbs.arm.option.cpp.linker.general.gcsections"/>
+							</tool>
+							<tool id="com.gigadevice.mbs.tool.archiver.1702662295" name="GD ARM MCU Archiver" superClass="com.gigadevice.mbs.tool.archiver"/>
+							<tool id="com.gigadevice.mbs.arm.tool.assembler.467229679" name="GD ARM MCU Assembler" superClass="com.gigadevice.mbs.arm.tool.assembler">
+								<option id="com.gigadevice.mbs.arm.option.assembler.preprocessor.usepreprocessor.1781305087" name="Use preprocessor" superClass="com.gigadevice.mbs.arm.option.assembler.preprocessor.usepreprocessor"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.assembler.symbols.defs.451055700" name="Define (-D)" superClass="com.gigadevice.mbs.arm.option.assembler.symbols.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="SYS_NS"/>
+									<listOptionValue builtIn="false" value="GD32F5HC"/>
+									<listOptionValue builtIn="false" value="FW_DEBUG_ERR_REPORT"/>
+									<listOptionValue builtIn="false" value="GD_ECLIPSE_GCC"/>
+									<listOptionValue builtIn="false" value="LV_CONF_INCLUDE_SIMPLE"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.gigadevice.mbs.arm.option.assembler.includes.paths.1793362651" name="Include paths (-I)" superClass="com.gigadevice.mbs.arm.option.assembler.includes.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../Utilities/Third_Party/lvgl-9.2.2/src/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Utilities/Third_Party/lvgl-9.2.2/src/tick/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Soft_Drive/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Utilities/Third_Party/lvgl-9.2.2/examples/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Utilities/Third_Party/lvgl-9.2.2/examples/porting/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Utilities/Third_Party/lvgl-9.2.2/demos/&quot;"/>
+								</option>
+								<inputType id="com.gigadevice.mbs.arm.inputType.assembler.1907887519" superClass="com.gigadevice.mbs.arm.inputType.assembler"/>
+							</tool>
+							<tool id="com.gigadevice.mbs.arm.tool.objcopy.hex.397522092" name="GD ARM MCU Flash Image(Hex)" superClass="com.gigadevice.mbs.arm.tool.objcopy.hex"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objcopy.bin.800548274" name="GD ARM MCU Flash Image(Bin)" superClass="com.gigadevice.mbs.arm.tool.objcopy.bin"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objcopy.mot.602119209" name="GD ARM MCU Flash Image(Mot)" superClass="com.gigadevice.mbs.arm.tool.objcopy.mot"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objdump.list.401688077" name="GD ARM MCU Listing" superClass="com.gigadevice.mbs.arm.tool.objdump.list"/>
+							<tool id="com.gigadevice.mbs.arm.tool.size.871629804" name="GD ARM MCU Print Size" superClass="com.gigadevice.mbs.arm.tool.size"/>
+							<tool id="com.gigadevice.mbs.arm.tool.objdump.dump.1843975680" name="GD ARM MCU Dump" superClass="com.gigadevice.mbs.arm.tool.objdump.dump"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Utilities/Third_Party/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="GD32F5HC.com.gigadevice.mbs.arm.projectType.692159618" name="Executable" projectType="com.gigadevice.mbs.arm.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.gigadevice.mbs.arm.configuration.debug.196398975;com.gigadevice.mbs.arm.configuration.debug.196398975.;com.gigadevice.mbs.arm.tool.CCompiler.124592187;com.gigadevice.mbs.arm.inputType.CCompiler.2051602071">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.gigadevice.mbs.arm.configuration.release.1874921423;com.gigadevice.mbs.arm.configuration.release.1874921423.;com.gigadevice.mbs.arm.tool.CCompiler.597656693;com.gigadevice.mbs.arm.inputType.CCompiler.410981166">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="GD ARM MCU Debug">
+			<resource resourceType="PROJECT" workspacePath="/GD32F5HC"/>
+		</configuration>
+		<configuration configurationName="GD ARM MCU Release">
+			<resource resourceType="PROJECT" workspacePath="/GD32F5HC"/>
+		</configuration>
+	</storageModule>
+</cproject>

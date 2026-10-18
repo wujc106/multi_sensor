@@ -1,0 +1,61 @@
+/*!
+    \file    gui_app.h
+*/
+
+/*
+    Copyright (c) 2026, GigaDevice Semiconductor Inc.
+
+    All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice, this
+       list of conditions and the following disclaimer.
+    2. Redistributions in binary form must reproduce the above copyright notice,
+       this list of conditions and the following disclaimer in the documentation
+       and/or other materials provided with the distribution.
+    3. Neither the name of the copyright holder nor the names of its contributors
+       may be used to endorse or promote products derived from this software without
+       specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGE.
+*/
+
+#ifndef CUSTOM_CODE_H
+#define CUSTOM_CODE_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "generated/ui_objects.h"
+#include "generated/ui_util.h"
+#include "generated/theme/theme.h"
+#include "generated/lang/aic_lang.h"
+
+/* simulator virtual keys (K1/K2/K3) */
+enum {
+    GUI_APP_KEY_NEXT = 1,   /* K1: next focus / cycle channel */
+    GUI_APP_KEY_OK   = 2,   /* K2: confirm / adjust */
+    GUI_APP_KEY_BACK = 3    /* K3: back / cancel edit */
+};
+
+void custom_init(void);
+void gui_app_sim_key(int key);
+void gui_app_sensor_feed(int channel, float value);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* CUSTOM_CODE_H */

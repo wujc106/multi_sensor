@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "lvglVersion": "v8.3.11",
+  "projectInfo": {
+    "name": "multi_sensor",
+    "createdAt": "2026-10-15T08:23:13.547Z",
+    "modifiedAt": "2026-10-15T08:23:13.547Z",
+    "createdWithVersion": "0.3.0-beta"
+  },
+  "display": {
+    "width": 320,
+    "height": 240,
+    "colorDepth": 16
+  },
+  "screens": [
+    {
+      "id": "screen",
+      "name": "screen",
+      "backgroundOpacity": 0,
+      "widgets": []
+    }
+  ],
+  "assets": {
+    "fonts": [],
+    "images": [],
+    "videos": []
+  },
+  "settings": {
+    "theme": "default",
+    "defaultFont": "",
+    "useMultiLanguage": true
+  },
+  "i18n": {
+    "languages": [
+      {
+        "code": "en",
+        "displayName": "English"
+      }
+    ],
+    "fallbackLanguage": "en",
+    "entries": []
+  },
+  "systemSettings": {
+    "project": {
+      "colorDepth": 16,
+      "showKeyboard": true
+    },
+    "ide": {
+      "defaultFont": "preset:NotoSansCJKsc-Regular.otf"
+    },
+    "lvgl": {
+      "refreshPeriodMs": 30,
+      "perfMonitor": false,
+      "memMonitor": false,
+      "memSizeKb": 256,
+      "imgCacheSize": 0
+    }
+  }
+}
